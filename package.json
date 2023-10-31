@@ -1,0 +1,17 @@
+{
+  "name": "sdk-build-event-handler-link-checker-template",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "netlify-integration build -a",
+    "dev": "netlify-integration dev -a",
+    "preview": "netlify-integration preview"
+  },
+  "dependencies": {
+    "@netlify/sdk": "^1.5.0",
+    "typescript": "^5.2.2",
+    "a11y": "^0.5.1",
+    "linkinator": "^6.0.1"
+  }
+}
