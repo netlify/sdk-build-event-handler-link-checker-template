@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@netlify/sdk':
-    specifier: ^1.5.0
-    version: 1.5.0
+    specifier: ^1.14.2
+    version: 1.14.2
   a11y:
     specifier: ^0.5.1
     version: 0.5.1
@@ -588,16 +588,16 @@ packages:
       chance: 1.1.11
     dev: false
 
-  /@netlify/sdk@1.5.0:
-    resolution: {integrity: sha512-L1P9gsKZ+FIkAF3Blg/dRKpRNHg6y2/E/rlpvYOe4LwkfzhheYPP89yQu5aLVHn9HDGIIbo2r/fiICpWvX0ofQ==}
+  /@netlify/sdk@1.14.2:
+    resolution: {integrity: sha512-anVFBR+gjVYrQdI/Gq8/2s6QumgBVfWxo4QLal7NPxeH9jpua0qMGO7GoX6WsGZN0VwE7tqCXnR20FtkI0JBtA==}
     hasBin: true
     dependencies:
       '@netlify/functions': 1.6.0
       '@netlify/integrations': 0.6.0
-      camelcase: 7.0.1
+      camelcase: 8.0.0
       chalk: 5.3.0
-      commander: 10.0.1
-      content-engine: 0.0.25
+      commander: 11.1.0
+      content-engine: 0.0.28
       crypto-js: 4.2.0
       esbuild: 0.19.5
       esbuild-plugin-copy: 2.1.1(esbuild@0.19.5)
@@ -614,7 +614,7 @@ packages:
       zod: 3.22.4
       zod-metadata: 1.1.0(zod@3.22.4)
       zod-to-json-schema: 3.21.4(zod@3.22.4)
-      zod-validation-error: 1.5.0(zod@3.22.4)
+      zod-validation-error: 2.1.0(zod@3.22.4)
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -707,7 +707,7 @@ packages:
     resolution: {integrity: sha512-rTtf75rwyP9G2qO5yRpYtdJ6aU1QqEhWbtW55qEgquEDa6bXW0s2TWZfDm02GuppjEozOWG/F2UnPq5hAQb+gw==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 8.10.66
+      '@types/node': 20.8.9
     dev: false
 
   /@types/http-cache-semantics@4.0.3:
@@ -731,7 +731,7 @@ packages:
   /@types/mkdirp@0.5.2:
     resolution: {integrity: sha512-U5icWpv7YnZYGsN4/cmh3WD2onMY0aJIiTE6+51TwJCttdHvtCYmkBNOobHlXwrJRL0nkH9jH4kD+1FAdMN4Tg==}
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 20.8.9
     dev: false
 
   /@types/node@20.8.9:
@@ -754,7 +754,7 @@ packages:
     resolution: {integrity: sha512-YyP+VfeaqAyFmXoTh3HChxOQMyjByRMsHU7kc5KOJkSlXudhMhQIALbYV7rHh/l8d2lX3VUQzprrcAgWdRuU8g==}
     dependencies:
       '@types/glob': 5.0.38
-      '@types/node': 8.10.66
+      '@types/node': 20.8.9
     dev: false
 
   /@types/tmp@0.0.33:
@@ -1175,9 +1175,9 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /camelcase@7.0.1:
-    resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
-    engines: {node: '>=14.16'}
+  /camelcase@8.0.0:
+    resolution: {integrity: sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==}
+    engines: {node: '>=16'}
     dev: false
 
   /caniuse-lite@1.0.30001558:
@@ -1337,9 +1337,9 @@ packages:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
     dev: false
 
-  /commander@10.0.1:
-    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
-    engines: {node: '>=14'}
+  /commander@11.1.0:
+    resolution: {integrity: sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==}
+    engines: {node: '>=16'}
     dev: false
 
   /common-tags@1.8.2:
@@ -1402,8 +1402,13 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /content-engine@0.0.25:
-    resolution: {integrity: sha512-rnZZVMcOSQLuk/s/N5fK6ctNLRNM9JV9mItc6UDDYD7Suskf8QJRpSICU+ibTMTXbDD85rBOW7FAeASAkqZOyg==}
+  /content-engine-graphiql-explorer@0.0.1:
+    resolution: {integrity: sha512-ZeWPqWrwkap3VyyYGRyNLiIzslgNAgDVd1LTX5Jv3IxpL3FPaJhV05/8LK7ONdp9LJpWWhnmdQOU8iq9NKurXA==}
+    engines: {node: '>=16.0.0'}
+    dev: false
+
+  /content-engine@0.0.28:
+    resolution: {integrity: sha512-OcrcdMFsjgybike/rN8npnAgS36APOoDl4BvfptbQl/k7ZoixvL4mdaM9h40dJFAJKP8P5Aoei9gox0NYS1Hgg==}
     engines: {node: '>=16.0.0'}
     requiresBuild: true
     dependencies:
@@ -1422,6 +1427,7 @@ packages:
       ci-info: 2.0.0
       common-tags: 1.8.2
       compression: 1.7.4
+      content-engine-graphiql-explorer: 0.0.1
       convert-hrtime: 3.0.0
       cors: 2.8.5
       detect-port: 1.5.1
@@ -1434,7 +1440,6 @@ packages:
       file-type: 16.5.4
       fs-exists-cached: 1.0.0
       fs-extra: 11.1.1
-      gatsby-graphiql-explorer: 3.12.1
       glob: 7.2.3
       globby: 11.1.0
       got: 11.8.6
@@ -2329,11 +2334,6 @@ packages:
 
   /function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
-    dev: false
-
-  /gatsby-graphiql-explorer@3.12.1:
-    resolution: {integrity: sha512-c2iG+4nAft2cTS9zgnPUAYNBtxTWGKjI26QIfjuo25j7/klnz8rLQYdj6TA4Z2Y3yyTyBspAHr9ho6zvOHlBJg==}
-    engines: {node: '>=14.15.0'}
     dev: false
 
   /gatsby-sharp@1.12.1:
@@ -3610,6 +3610,7 @@ packages:
   /node-gyp-build-optional-packages@5.0.7:
     resolution: {integrity: sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -5170,9 +5171,9 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /zod-validation-error@1.5.0(zod@3.22.4):
-    resolution: {integrity: sha512-/7eFkAI4qV0tcxMBB/3+d2c1P6jzzZYdYSlBuAklzMuCrJu5bzJfHS0yVAS87dRHVlhftd6RFJDIvv03JgkSbw==}
-    engines: {node: '>=16.0.0'}
+  /zod-validation-error@2.1.0(zod@3.22.4):
+    resolution: {integrity: sha512-VJh93e2wb4c3tWtGgTa0OF/dTt/zoPCPzXq4V11ZjxmEAFaPi/Zss1xIZdEB5RD8GD00U0/iVXgqkF77RV7pdQ==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
       zod: ^3.18.0
     dependencies:
