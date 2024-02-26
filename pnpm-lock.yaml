@@ -16,7 +16,7 @@ dependencies:
     version: 6.0.1
   typescript:
     specifier: ^5.2.2
-    version: 5.2.2
+    version: 5.3.3
 
 packages:
 
@@ -609,7 +609,7 @@ packages:
       open: 9.1.0
       outdent: 0.8.0
       toml: 3.0.0
-      typescript: 5.2.2
+      typescript: 5.3.3
       wretch: 2.7.0
       zod: 3.22.4
       zod-metadata: 1.1.0(zod@3.22.4)
@@ -1475,7 +1475,7 @@ packages:
       uuid: 8.3.2
       yurnalist: 2.1.0
     optionalDependencies:
-      gatsby-sharp: 1.12.1
+      gatsby-sharp: 1.13.0
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -2336,8 +2336,8 @@ packages:
     engines: {node: '>=14.15.0'}
     dev: false
 
-  /gatsby-sharp@1.12.1:
-    resolution: {integrity: sha512-e7lqA74UZau7MOktc9V+sNh86a8oNZPFIsY5Atk+C0sGlzHx0IcivsJjwLHJ6OF11SIC38a9z2wE8Nl6YiG/Ig==}
+  /gatsby-sharp@1.13.0:
+    resolution: {integrity: sha512-DviUtgm7tatSd1Hm54o/orHimOcyXBO9OJkSfzEchPFClvOza+2Qe/lqZShio0gFDxmG0Jgn0XCLzG7uH5VyJQ==}
     engines: {node: '>=18.0.0'}
     requiresBuild: true
     dependencies:
@@ -3610,6 +3610,7 @@ packages:
   /node-gyp-build-optional-packages@5.0.7:
     resolution: {integrity: sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -4915,8 +4916,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: false
 
-  /typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
