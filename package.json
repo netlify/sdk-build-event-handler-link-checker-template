@@ -9,7 +9,7 @@
     "preview": "netlify-integration preview"
   },
   "dependencies": {
-    "@netlify/sdk": "^1.5.0",
+    "@netlify/sdk": "^1.67.0",
     "typescript": "^5.2.2",
     "a11y": "^0.5.1",
     "linkinator": "^6.0.1"
